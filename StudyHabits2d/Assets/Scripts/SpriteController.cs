@@ -16,6 +16,7 @@ public class SpriteController: MonoBehaviour
 
     void OnMouseDown ()
     {
+        
         spriteRenderer = GetComponent<SpriteRenderer>();
         Debug.Log(spriteRenderer.sprite.name);
        if (spriteRenderer.sprite == sprite1) 

@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class MugController : MonoBehaviour
 {
+    public AudioClip Coffee;
+    private AudioSource audioSource;
     bool clicked;
+    void Start () {
+        audioSource = gameObject.GetComponent<AudioSource> ();
+         audioSource.enabled = false;
+    }
     void Update(){
         Transform ThisTransform = GetComponent<Transform>();
         if(clicked == true && ThisTransform.GetChild(1).gameObject.transform.localScale[1] < 1f){
@@ -14,6 +20,11 @@ public class MugController : MonoBehaviour
     }
     void OnMouseDown(){
          Debug.Log("Mouse is over GameObject.");
+         audioSource.enabled = true;
+         if (!audioSource.isPlaying) {
+             audioSource.clip = Coffee;
+             audioSource.Play ();
+         }
          clicked = true;
         
     }
