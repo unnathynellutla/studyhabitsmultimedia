@@ -1,0 +1,76 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/2021.1.7f1/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/unnathy5108/Desktop/studyhabitsmultimedia/StudyHabits2d
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50397
+Successfully changed project path to: /Users/unnathy5108/Desktop/studyhabitsmultimedia/StudyHabits2d
+/Users/unnathy5108/Desktop/studyhabitsmultimedia/StudyHabits2d
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 101.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path /Applications/2021.1.7f1/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/unnathy5108/Desktop/studyhabitsmultimedia/StudyHabits2d/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-11-21 19:35:02.996 Unity[34321:4891338] (null) preferred device: Apple M1 (high power)
+2021-11-21 19:35:02.996 Unity[34321:4891338] Metal devices available: 1
+2021-11-21 19:35:02.996 Unity[34321:4891338] 0: Apple M1 (high power)
+2021-11-21 19:35:02.996 Unity[34321:4891338] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/2021.1.7f1/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/2021.1.7f1/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/2021.1.7f1/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56321
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/2021.1.7f1/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/2021.1.7f1/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002438 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 100.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.282 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003338 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/unnathy5108/Desktop/studyhabitsmultimedia/StudyHabits2d/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/unnathy5108/Desktop/studyhabitsmultimedia/StudyHabits2d/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 101.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.454 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/2021.1.7f1/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 275.2 MB.
+System memory in use after: 275.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3830.
+Total: 2.027041 ms (FindLiveObjects: 0.217917 ms CreateObjectMapping: 0.076375 ms MarkObjects: 1.602708 ms  DeleteObjects: 0.128834 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(b24463fe15ceb43d3b9d3658c8907de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(b24463fe15ceb43d3b9d3658c8907de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f135ad3da9eea09387d897d8739fb4') in 0.023247 seconds 
