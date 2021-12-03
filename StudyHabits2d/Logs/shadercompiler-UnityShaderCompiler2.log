@@ -1,6 +1,3 @@
 Base path: '/Applications/2021.1.7f1/Unity/Unity.app/Contents', plugins path '/Applications/2021.1.7f1/Unity/PlaybackEngines'
 Cmd: initializeCompiler
 
-Cmd: shutdown
-
-Quitting shader compiler process
